@@ -8,3 +8,6 @@ List<Symptom> symptomsList = [
   Symptom(title: 'Fever', imagrUrl: 'assets/images/fever.png'),
   Symptom(title: 'Sore throat', imagrUrl: 'assets/images/sore_throat.png'),
 ];
+
+
+
