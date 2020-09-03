@@ -27,11 +27,12 @@ class _TabPageState extends State<TabPage> {
           _currentIndex = value;
         });
       },
+      selectedItemColor: Colors.red[200],
       currentIndex: _currentIndex,
       type: BottomNavigationBarType.fixed,
       items: [
         for( final tabItem in TabNavigationItem.items)
-          BottomNavigationBarItem(icon: tabItem.image, title: tabItem.title)
+          BottomNavigationBarItem(icon: tabItem.icon, title: tabItem.title)
       ],
     );
 }

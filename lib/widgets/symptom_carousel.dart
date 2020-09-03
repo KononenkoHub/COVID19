@@ -1,7 +1,6 @@
 import 'package:covid19_app/widgets/custom_behavior.dart';
 import 'package:flutter/material.dart';
 import 'package:covid19_app/data.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 import 'symptom_card.dart';
 
